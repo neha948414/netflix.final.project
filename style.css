@@ -1,0 +1,575 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ html,body{
+height: 100%;
+width:100%;
+}
+#page1{
+height: 100%;
+width: 100%;
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./background.jpg);
+background-position: center;
+background-size:cover;
+position: relative;
+border-bottom:10px rgb(44, 42, 42) solid;
+
+}
+#nav{
+    height: 11.9%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 170px;
+    background-image: linear-gradient(black,transparent);
+   
+    
+}
+#nav>img{
+    height: 110px;
+    
+}
+#nav2{
+    display: flex;
+    height: 100%;
+    width: 22%;
+    align-items: center;
+
+    justify-content: space-around;
+
+
+}
+#eng{
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    padding: 6px 3px;
+    border: 1px rgb(163, 158, 158) solid;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    display:flex;
+    position: relative;
+
+}
+#eng i{
+    font-size: 22px;
+    margin-left: 6px;
+    margin-right: 7px;
+}
+.sign{
+    font-size: 16px;
+    background-color:red;
+    color: white;
+    padding: 8px 17px; 
+    border: 1px black solid;
+    border-radius: 5px;
+    border: none;
+    margin-right: 28px;
+    cursor: pointer;
+}
+.sign:hover{
+    
+background-color: rgb(212, 38, 38);
+}
+#cntn{
+    height: 38%;
+    width: 70%;
+    margin-top: 24%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+#cntn h1{
+    font-size: 60px;
+    font-weight: 300;
+    font-family: gilroy;
+    margin-left:55px;
+color: white;
+}
+#cntn p{
+    font-size: 29px;
+    font-weight: 200;
+    align-items: center;
+    margin-left:35%;
+    margin-top: 30px;
+    color: aliceblue;
+}
+#cntn h3{
+    font-size: 25px;
+    font-weight:100;
+    margin-left:20%;
+    margin-top: 30px;
+    color: aliceblue;
+
+}
+#btn{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 110px;
+height: 30%;
+width: 80%;
+margin-top: 7px;
+
+}
+#btn1{
+ border: 1px white solid;
+border-radius: 5px;
+background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7));
+opacity: 0.4;
+margin-right: 8px;
+height: 62%;
+width: 44%;
+}
+#btn1 h4{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 14px;
+    padding: 0 19px;
+    color:#fff;
+}
+
+#btn2{
+    font-size: 24px;
+    background-color: red;
+    padding: 16px 41px;
+    color: white;
+    border-radius: 5px;
+    border: none;   
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    cursor: pointer;
+}
+#btn2 i{
+    font-size: 28px;
+    align-items: center;
+    justify-items: center;
+}
+#btn2:hover{
+    
+    background-color: rgb(212, 38, 38);
+    }
+
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#main{
+    height: 85%;
+    width: 100%;
+    position: relative;
+    border-bottom: 10px rgb(44, 42, 42) solid;
+    display: flex;
+
+}
+#div1{
+    height:100%;
+    width: 50%;
+    position: relative;
+    align-items: center;
+    color: white;
+    padding: 10px 30px;
+}
+#div1 h1{
+    font-size: 62px;
+    align-items: center;
+    width: 73%;
+    margin-left:29%;
+    margin-top: 29%;
+    font-weight: 400;
+    font-family: gilroy;
+
+}
+#div1 h4{
+    font-size: 27px;
+    width: 75%;
+    margin-top: 20px;
+    margin-left:28.5%;
+    font-weight: 100;
+}
+#div2{
+    height:100%;
+    width: 50%;
+    position: relative;
+}
+
+#div2 video{
+    height: 270px;
+    width: 468px;
+    position: relative;
+    top: 27%;
+    left: 10.5%;
+}
+#div2 img{
+    position: relative;
+    top: -25.6%;
+    left: .4%;
+}
+#page3{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+
+    margin-top: -4%;
+}
+#main1{
+        height: 90%;
+        width: 100%;
+    position: relative;
+    display: flex;
+    border-bottom: 10px solid rgb(44, 42, 42);
+
+    
+}
+#ldiv{
+    height: 100%;
+    width: 50%;
+    position: relative;
+
+}
+#img1{
+    margin-left: 155px;
+    margin-top: 0;
+}
+#btm{
+    height: 17%;
+    width: 44%;
+    border: 2px solid rgb(44, 42, 42);
+    background: black;
+    position: relative;
+    margin-top: -140px;
+    margin-left: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+#btm h4{
+    font-size: 19px;
+    margin-left: 20px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#img2{
+    width: 80px;
+    height: 80px;
+}
+#anim{
+    background-color: rgb(222, 44, 100);
+    width: 80px;
+    height: 80px;
+}
+
+
+#rdiv{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    color: white;
+
+}
+#rdiv h1{
+width: 75%;
+font-size: 58px;
+font-family: gilroy;
+position: relative;
+margin-top: 130px;
+font-weight: 600;
+}
+#rdiv h3{
+    width: 62%;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    margin-top: 18px;
+    font-weight: 400;
+}
+
+#page4{
+    height: 80%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#main2{
+    height: 85%;
+    width: 100%;
+    position: relative;
+    border-bottom: 10px rgb(44, 42, 42) solid;
+    display: flex;
+
+}
+#div12{
+    height:100%;
+    width: 50%;
+    position: relative;
+    color: white;
+}
+#div12 h1{
+    font-size: 60px;
+    align-items: center;
+    width: 73%;
+    margin-left:29%;
+    margin-top: 21%;
+    font-weight: 400;
+    font-family: gilroy;
+    position: relative;
+
+}
+#div12 h4{
+    font-size: 29px;
+    width: 70%;
+    margin-top: 20px;
+    margin-left:28.5%;
+    font-weight: 100;
+}
+#div22{
+    height:100%;
+    width: 50%;
+    position: relative;
+
+}
+
+#div22 img{
+margin-top: -33%;
+margin-left: 0%;
+position: relative;
+width: 620px;
+}
+#div22 video{
+    margin-top: 5%;
+    margin-left: 12%;
+    position: relative;
+    width: 400px;
+
+    }
+  #page5{
+    height:90%;
+    width: 100%;
+    background-color: black;
+  }  
+  #main5{
+    height:80%;
+    width: 100%;
+    border-bottom: 10px solid rgb(44, 42, 42);
+    display: flex;
+    color: white;
+    padding: 10px 20px;
+  } 
+  #left5{
+    height:100%;
+    width: 50%;
+    
+  } 
+  #left5 img{
+    background-color: red;
+    margin-top: 5%;
+    margin-left: 14%;
+  }
+  #right5{
+    height:100%;
+    width: 50%;
+    position: relative;
+  } 
+  #right5 h1{
+    font-size: 60px;
+    width: 80%;
+    font-family: gilroy;
+    margin-left: 2%;
+    margin-top: 10%;
+  }
+  #right5 h3{
+    font-size: 30px;
+    width: 80%;
+    margin-left: 2%;
+    margin-top: 2.5%;
+    font-weight: 100;
+  }
+  #page6{
+    height: 135%;
+    width: 100%;
+    background-color:black;
+    border-bottom: 10px rgb(42, 41, 41) solid;
+    
+  }
+  #page6 h1{
+    font-size: 60px;
+    color: white;
+    margin-left: 27%;
+    margin-top: 30px;
+    font-family: gilroy;
+    font-weight: 600;
+  }
+  #finl{
+    height: 66%;
+    width: 80%;
+    margin-left: 10%;
+
+  }
+  #div99{
+    height:14% ;
+    width: 100%;
+    background-color:rgb(42, 41, 41);
+    color: white;
+      
+  }
+  .cls99 i{
+    font-size: 50px;
+    font-weight: 100;
+  }
+  .cls99 h2{
+    font-size: 28px;
+    font-weight: 100;
+  }
+  .cls99{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+padding: 22px 30px;
+    margin-top: 15px;
+  }
+  .cls99:hover{
+    background-color: rgb(90, 90, 90);
+    transition: all ease .4s;
+  }
+  #page6 h5{
+    font-size: 26px;
+    font-weight: 100;
+    color: white;
+    margin-left: 28%;
+    margin-top: 2%;
+    width: 49%;
+    padding: 2px 5px;
+  }
+  #btn9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: 26%;
+    width: 80%;
+    margin-top: -5%;
+    
+    }
+    #btn19{
+    border: 1px white solid;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7));
+    opacity: 0.4;
+    margin-right: 8px;
+    height: 22.5%;
+    width: 33%;
+    }
+    #btn19 h4{
+        font-size: 20px;
+        font-weight: 100;
+        margin-top: 14px;
+        padding: 0 19px;
+        color:#fff;
+    }
+    
+    
+    #btn29{
+        font-size: 24px;
+        background-color: red;
+        padding: 16px 41px;
+        color: white;
+        border-radius: 5px;
+        border: none;   
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        cursor: pointer;
+    }
+    #btn29 i{
+        font-size: 28px;
+        align-items: center;
+        justify-items: center;
+    }
+    #btn29:hover{
+        
+        background-color: rgb(212, 38, 38);
+        }
+        #page7{
+            height: 70%;
+            width: 100%;
+            position: relative;
+            background-color: black;
+            color:rgb(166, 170, 170);
+        }
+        #page7 h6{
+            font-size: 20px;
+            margin-left: 14%;
+            padding-top: 40px;
+            font-weight: 100;
+    
+        }
+        #last{
+        height: 65%;
+        width: 67%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 6%;
+        
+        font-size: 19px;
+     }
+     
+     #lst1{
+        line-height: 33px;
+        margin-top: -8%;
+     }
+
+     #lst2{
+        line-height: 33px;
+        margin-top: -8%;
+     }
+     #lst3{
+        line-height: 33px;
+        margin-top: -8%;
+     }
+     #eng1{
+        font-size: 17px;
+        background-color: black;
+        color: white;
+        padding: 6px 3px;
+        border: 1px rgb(163, 158, 158) solid;
+        border-radius: 5px;
+        justify-content: space-around;
+        align-items: center;
+        display:flex;
+        position: relative;
+        margin-left: 12.7%;
+        margin-top: -4%;
+    
+    }
+    #eng1 i{
+        font-size: 22px;
+        margin-left: 6px;
+        margin-right: 7px;
+    } 
+    #page7>h5{
+        font-size: 17px;
+        margin-left: 12.7%;
+        margin-top: 30px;
+        font-weight: 100;
+    }
